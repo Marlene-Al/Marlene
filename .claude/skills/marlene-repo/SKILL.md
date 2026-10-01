@@ -80,7 +80,3 @@ gh api --method PATCH repos/Marlene-Al/Marlene/git/refs/heads/main -f sha=<но�
 - `gh api` на пустом репозитории даёт 409 — Git Data API нужен seed-файл через Contents API.
 - В PS 5.1 нет `&&`/`||`, ternary; stderr нативных exe не редиректить.
 - Cyrillic-пути Git Data API берёт как есть в JSON body — кодировать не нужно.
-
-## Хвосты на контроль
-
-- `.claude\agents\` пуст, но README обещает агентов researcher / article-writer / project-weekly-control — до публикации в репозиторий они не дошли; либо добавить файлы агентов, либо поправить README.
